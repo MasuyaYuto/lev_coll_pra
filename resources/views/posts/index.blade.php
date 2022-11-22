@@ -8,6 +8,9 @@
 <body>
     <h1>ブログ投稿</h1>
     
+    <a href="/posts/create">create</a>
+    
+    <hr>
     <div class='posts'>
         @foreach ($posts as $post)
             <div class='post'>
