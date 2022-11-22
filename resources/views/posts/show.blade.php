@@ -10,6 +10,7 @@
         <h2 class='title'>{{ $post->title}}</h2>
         <p class='body'>{{$post->body}}</p>
     </div>
+    <div class="edit"><a href='/posts/{{ $post->id }}/edit'>edit</a></div>
     <a class='back' href='/'>back</a>
 </body>
 </html>
